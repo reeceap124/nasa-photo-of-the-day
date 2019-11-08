@@ -31,11 +31,3 @@
     transform: rotate(360deg);
   }
 }
-.photoCard{
-  max-width: 80%;
-  height: auto;
-}
-img{
-  width: 100%;
-  height: auto;
-}

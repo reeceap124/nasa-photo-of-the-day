@@ -18,10 +18,11 @@ export default function PhotoGrid(){
             console.log('there was and error', error)
         })
     },[])
-
+    
     return (
         <div className='container'>
-            <PhotoCard photo={photo} hdurl={photo.hdurl}/>
+
+            <PhotoCard photo={photo} hdurl={photo.hdurl} description={photo.explanation}title={photo.title}  date={photo.date}/>
         </div>
     )
 
